@@ -1,0 +1,282 @@
+/* Conteneur principal */
+.container {
+    background-color: #f2f0f0cf;
+    padding-top: 100px;
+    width: 1519px;
+    height: 110vh;
+}
+
+.ma9la {
+    position: absolute;
+    margin-top: -120px;
+    height: 800px;
+}
+
+.r1 {
+    position: absolute;
+    top: 650px;
+    left: 1270px;
+}
+
+.r2 {
+    position: absolute;
+    top: 580px;
+    left: 1380px;
+}
+
+/* Table Wrapper */
+.tableWrapper {
+    position: absolute;
+    margin-top: 30px;
+    margin-left: 150px;
+    width: 1200px;
+    max-height: 600px; /* Hauteur maximale pour activer le défilement */
+    overflow-y: auto; /* Activer le défilement vertical */
+    background-color: #ffffff; /* Arrière-plan non transparent pour le conteneur */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+/* Table styles */
+.table {
+    width: 100%; /* S'adapter à la largeur du conteneur */
+    border-collapse: collapse;
+    background-color: #ffffff; /* Arrière-plan non transparent */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+/* En-tête du tableau */
+.table thead {
+    background-color: #EA6D27;
+    color: white;
+    text-align: center; /* Centrer le texte dans l'en-tête */
+}
+
+/* Cellules du tableau */
+.table th, .table td {
+    padding: 0.65rem; /* Réduit le padding pour diminuer la hauteur des lignes */
+    text-align: center; /* Centrer le texte dans toutes les cellules */
+    border-bottom: 1px solid #ddd;
+}
+
+.table th {
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+/* Carré bleu pour le numéro de table */
+.tableNumber {
+    background-color: #003366; /* Bleu foncé */
+    color: white;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin: auto; /* Centrer le carré dans la cellule */
+}
+
+/* Corps du tableau */
+.table tbody tr {
+    line-height: 1.5rem; /* Ajuste la hauteur des lignes */
+    transition: background-color 0.3s ease;
+}
+
+.table tbody tr:hover {
+    background-color: #f8f8f8;
+}
+
+.table td {
+    font-size: 1rem;
+    color: #333;
+}
+
+/* Bouton de réservation */
+.bookBtn {
+    padding: 0.75rem 1.5rem;
+    background-color: #101A24;
+    color: white;
+    border: none;
+    border-radius: 20px 2px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    font-size: 1rem;
+    display: block;
+    margin: auto; /* Centrer le bouton dans la cellule */
+    font-family: David Libre;
+}
+
+.bookBtn:hover {
+    background-color: #333;
+    transform: scale(1.05);
+}
+
+/* Responsive */
+@media (max-width: 1400px) {
+    .tableWrapper {
+        width: 100%;
+    }
+}
+
+/* Style pour les lignes lorsque la table n'est pas disponible */
+.tableUnavailable {
+    background-color: rgb(255, 238, 231); /* Couleur de fond pour les tables non disponibles */
+}
+
+/* Ajout de styles pour le statut de disponibilité */
+.availableText {
+    color: #28a745; /* Couleur verte pour disponible */
+    font-weight: bold;
+}
+
+.notAvailableText {
+    color: #dc3545; /* Couleur rouge pour non disponible */
+    font-weight: bold;
+}
+
+/* Style pour le wrapper de l'image */
+.tableImgWrapper {
+    position: relative;
+    display: flex; /* Utilise flexbox pour centrer verticalement */
+    justify-content: center; /* Centre horizontalement */
+    align-items: center; /* Centre verticalement */
+}
+
+/* Styles pour les indicateurs de disponibilité */
+.tableImg {
+    width: 140px;
+    height: 85px;
+    border-radius: 5px;
+}
+
+.available, .notAvailable {
+    position: absolute;
+    left: 0; /* Positionne le point à gauche */
+    top: 50%; /* Positionne le point au centre verticalement */
+    transform: translateY(-50%); /* Ajuste le centrage vertical */
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+
+.available {
+    background-color: #28a745; /* Couleur verte pour disponible */
+}
+
+.notAvailable {
+    background-color: #dc3545; /* Couleur rouge pour non disponible */
+}
+
+.modalOverlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+  }
+  
+  .modalContent {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    width: 400px;
+    max-width: 100%;
+    text-align: center;
+    position: relative;
+  }
+
+  .modalContent h2 {
+    color: #312d2b;
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+  }
+  
+  /* Groupe de champs de formulaire */
+  .formGroup {
+    margin-bottom: 15px;
+  }
+  
+  /* Label des champs */
+  .formGroup label {
+    display: block;
+    font-size: 1rem;
+    color: #333;
+    margin-bottom: 5px;
+  }
+  
+  /* Input de formulaire (date, time, number, textarea) */
+  .formGroup input,
+  .formGroup textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+    color: #333;
+    background-color: #f9f9f9;
+    margin-bottom: 5px;
+    box-sizing: border-box;
+  }
+  
+  /* Textarea spécifique */
+  .formGroup textarea {
+    resize: vertical;
+    height: 80px;
+  }
+  
+  /* Messages d'erreur */
+  .errorMessage {
+    color: red;
+    font-size: 0.9rem;
+    margin-top: -10px;
+    margin-bottom: 15px;
+  }
+  
+  /* Actions du modal */
+  .modalActions {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+    margin-top: 20px;
+  }
+  
+  /* Bouton "Confirmer" */
+  .reserveBtn {
+    background-color: #EA6D27;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  
+  .reserveBtn:hover {
+    background-color: #FF7D47; /* Variation légèrement plus claire au survol */
+  }
+  
+  /* Bouton "Annuler" */
+  .cancelBtn {
+    background-color: #ccc;
+    color: #333;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  
+  .cancelBtn:hover {
+    background-color: #bbb;
+  }
+  

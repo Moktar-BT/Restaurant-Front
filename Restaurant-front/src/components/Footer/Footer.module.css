@@ -1,0 +1,152 @@
+.container {
+ 
+  height: 450px;
+  width: 1519px;
+  background-color: rgb(255, 255, 255);
+  /* border-top: 1px solid black; */
+  position: relative;
+}
+
+.logo {
+  height: 40px;
+  margin-top: 50px;
+  margin-left: 200px;
+}
+.desc {
+  font-family: Inter;
+  font-size: 15px;
+  position: absolute;
+  color: #5c6574;
+  margin-top: 15px;
+  margin-left: 200px;
+}
+.oh {
+  position: absolute;
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: bold;
+  margin-left: 200px;
+  margin-top: 170px;
+}
+.ma9la {
+  height: 550px;
+  position: absolute;
+  margin-top: -60px;
+  margin-left: 380px;
+}
+.wa9t {
+  color: #5c6574;
+  font-size: 13px;
+  position: absolute;
+  font-family: Inter;
+  margin-left: 200px;
+  margin-top: 230px;
+}
+.wa9t1 {
+  color: #5c6574;
+  font-size: 13px;
+  position: absolute;
+  font-family: Inter;
+  margin-left: 350px;
+  margin-top: 230px;
+}
+.wa9t2 {
+  color: #5c6574;
+  font-size: 13px;
+  position: absolute;
+  font-family: Inter;
+  margin-left: 500px;
+  margin-top: 230px;
+}
+.navigation {
+  position: absolute;
+  font-family: Inter;
+  font-weight: bold;
+  font-size: 12px;
+  margin-left: 750px;
+}
+.nlink {
+  position: absolute;
+  margin-top: 35px;
+}
+.nlink1 {
+  position: absolute;
+  margin-top: 35px;
+}
+
+.nlinks {
+  font-size: 16px;
+  margin-top: 20px;
+  color: #5c6574;
+  font-family: Inter;
+  margin-left: 750px;
+}
+.nlinks1 {
+  font-size: 16px;
+  margin-top: 20px;
+  color: #5c6574;
+  font-family: Inter;
+  margin-left: 920px;
+}
+.dishes {
+  position: absolute;
+  font-family: Inter;
+  font-weight: bold;
+  font-size: 12px;
+  margin-left: 920px;
+}
+.follow {
+  position: absolute;
+  font-family: Inter;
+  font-weight: bold;
+  font-size: 12px;
+  margin-left: 1060px;
+}
+.facebook {
+  display: flex;
+  position: absolute;
+  height: 40px;
+  margin-top: 50px;
+  margin-left: 1060px;
+}
+.instagram {
+  position: absolute;
+  margin-top: 50px;
+  margin-left: 1110px;
+  height: 40px;
+}
+.twitter {
+  margin-top: 50px;
+  position: absolute;
+  height: 40px;
+  margin-left: 1160px;
+}
+.starr {
+  position: absolute;
+  margin-left: 200px;
+  margin-top: 320px;
+}
+.copyright{
+    position: absolute;
+    font-family: Inter;
+    font-size: 16px;
+    color: #5c6574;
+    margin-left: 200px;
+    margin-top: 340px;
+}
+.copyright1{
+    position: absolute;
+    font-family: Inter;
+    font-size: 16px;
+    color: #5c6574;
+    margin-left: 1060px;
+    margin-top: 340px;
+}
+.copyright2{
+    position: absolute;
+    font-family: Inter;
+    font-size: 16px;
+    color: #5c6574;
+    margin-left: 1257px;
+    margin-top: 340px;
+}

@@ -1,0 +1,98 @@
+.container {
+    margin-right: 50px;
+    position: relative;
+    width: 265px; /* S'assurer que la largeur est fixe pour chaque item */
+    height: 500px; /* Ajuster la hauteur selon la taille du contenu */
+}
+
+.platimg {
+    height: 187px;
+    width: 187px;
+    z-index: 1;
+    position: absolute;
+    top: 10px;
+    left: 45px;
+    border-radius: 50%;
+   
+}
+
+.price {
+    display: flex;
+    position: absolute;
+    height: 54px;
+    width: 54px;
+    font-size: 15.5px;
+    font-family: Inter, sans-serif;
+    border-radius: 50%;
+    background-color: #101A24;
+    color: #FFFFFF;
+    justify-content: center;
+    align-items: center;
+    top: 40px;  /* Ajuster selon le design souhaité */
+    left: 200px; /* Ajuster selon le design souhaité */
+    z-index: 2;
+}
+
+.card {
+    position: absolute;
+    top: 130px;
+    left: 0;
+    height: 340px;
+    width: 265px;
+    background-color: #FFFFFF;
+    border-radius: 50px 2px;
+    padding-top: 85px;
+    padding-left: 20px;
+    padding-right: 20px;
+    box-sizing: border-box;
+    text-align: center;
+    
+
+}
+
+.titre {
+    font-family: David Libre;
+    font-size: 20px;
+    color: #101A24;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+
+.desc {
+    color: #5C6574;
+    font-size: 18px;
+    font-family: Inter, sans-serif;
+    margin-top: 37px; /* Enlever les marges pour éviter les débordements */
+    overflow:visible; /* Cache le texte qui dépasse */
+    word-wrap: break-word; /* Assure le retour à la ligne si nécessaire */
+    word-break: break-word; /* Casse les longs mots pour éviter le débordement */
+    height: 120px; /* Ajuster la hauteur en fonction de la taille souhaitée */
+
+    line-height: 1.4; /* Ajuster la hauteur de ligne pour le confort de lecture */
+}
+.addimg{
+
+    height: 30px;
+  
+}
+.btnadd {
+    display: flex;
+    position: absolute; /* Positionné relativement au conteneur parent */
+    justify-content: center;
+    align-items: center;
+    top: 286px;
+    bottom: 20px; /* Ajuste la distance depuis le bas du conteneur */
+    right: 6px; /* Ajuste la distance depuis la droite du conteneur */ 
+    background-color: transparent;
+    border-bottom-right-radius:90px;
+    height: 47px;
+    width: 68px;
+    z-index: 10; /* Assure que le bouton est au-dessus des autres éléments */
+}
+
+
+.btnadd:hover {
+    transition: 300ms;
+    background-color: #ebebeb5e;
+}

@@ -1,0 +1,33 @@
+.container {
+    position: absolute;
+    margin-top: 90px;
+    background-image: url('../../assets/booking_bg1.avif'); /* Path relative to public folder */
+    background-size: cover; /* Ensure image covers the container */
+    background-position: center; /* Center the background */
+    height: 87vh;
+    width: 100%; /* Set height for the container to ensure visibility */
+  }
+  .ktiba{
+    display: flex;
+    position:absolute;
+    font-size: 70px;
+    color:#ffffff;
+    font-family: David Libre;
+    margin-left:160px;
+    margin-top: 280px;
+    font-weight: bold;
+  }
+  .booknow{
+    margin-top: 120px;
+    margin-left: 600px;
+    border: 2px solid white;
+    background-color: rgba(255, 255, 255, 0.301);
+    font-size: 40px;
+    color:#ffffff;
+    font-family: David Libre;
+    width: 300px;
+    border-radius: 15px;
+  }
+  .footer{
+    margin-top: 760px;
+  }

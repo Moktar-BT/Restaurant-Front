@@ -1,0 +1,170 @@
+.container{
+    display: flex;
+    margin-left: 70px;
+    width: 1370px;
+    height: 580px;
+    margin-top: 50px;
+}
+.text{
+    padding-left: 70px;
+    padding-top: 180px;
+    height: 104.4px;
+    width: 104px;
+}
+.partie1{
+    display: flex;
+    position:absolute;
+    font-size: 70px;
+    color:#101A24;
+    font-family: David Libre;
+    margin-left:150px;
+    margin-top: 180px;
+    font-weight: bold;
+    
+}
+
+.shan{
+    position: absolute;
+    margin-top: 360px; 
+    height: 364px;
+    width: 364px;
+    margin-left: 640px;
+    z-index: 2;
+}
+.taswira{
+    margin-top: 70px;
+    position: absolute;
+    margin-left: 780px;
+    width: 516px;
+    height: 712px;
+    z-index: 1;
+
+  
+}
+.ligne{
+    display:flex;
+    position: absolute;
+    margin-top: -60px;
+    margin-left: -110px;
+}
+.hchicha1{
+    position: absolute;
+    height: 191.94px;
+    width: 448px;
+    margin-left: 380px;
+    margin-top: 30px;
+}
+.hchicha2{
+    position: absolute;
+    height: 299.11px;
+    width: 315.17px;
+    margin-left: 1130px;
+   
+}
+.hchicha3{
+    position: absolute;
+    height: 299.11px;
+    width: 315.17px;
+    margin-left: 1130px;
+    margin-top: 550px;
+}
+.desc{
+    font-family: Inter;
+    font-size: 19px;
+    position: absolute;
+    color: #5C6574;
+    margin-top: 410px;
+    margin-left: 150px;
+    
+}
+.Menu{
+    display: flex;
+    position: absolute;
+    margin-top: 520px;
+    margin-left: 150px;
+    height: 54px;
+    width: 120px;
+    background-color: #101A24;
+    color:#FFFFFF ;
+    border-radius: 15px 0px;
+    font-family: David Libre;
+    font-size: 18px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    align-items: center;
+    justify-content: center;
+}
+.bat{
+    position: absolute;
+    margin-top: 520px;
+    margin-left: 200px;
+    height: 54px;
+    width: 167px;
+    background-color: #EA6D27;
+    color:#FFFFFF ;
+    border-radius: 15px 0px;
+    font-family: David Libre;
+    
+    font-size: 18px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.facebook{
+    display: flex;
+    position: absolute;
+    height: 40px; 
+    margin-top: -270px;
+    margin-left: -25px;
+}
+.instagram{
+    position: absolute;
+    margin-top: -270px;
+    height: 40px; 
+    margin-left: -25px;
+}
+.twitter{
+    position: absolute;
+    margin-left: -25px;
+    margin-top: -270px;
+    height: 40px; 
+
+}
+.linkbtn1{
+    position: absolute;
+    background-color: transparent;
+    height: 50px;
+    width: 50px;
+    margin-top: 870px;
+    margin-left: 150px;
+}
+.linkbtn2{
+    position: absolute;
+    background-color: transparent;
+    height: 50px;
+    width: 50px;
+    margin-top: 870px;
+    margin-left: 198px;
+}
+.linkbtn3{
+    position: absolute;
+    background-color: transparent;
+    height: 50px;
+    width: 50px;
+    margin-top: 870px;
+    margin-left: 249px;
+}
+.fin{
+
+    width: 50px;
+   display: block;
+    
+    
+}
+.starr{
+    position: absolute;
+    margin-top: 645px;
+    height: 1.5px;
+    width: 250px;
+    margin-left: 340px;
+}
+.footer{
+    margin-top: 300px;
+}

@@ -1,0 +1,238 @@
+.container1{
+    display: flex;
+    position: relative;
+    width: 1519px;
+    height: 800px;
+    padding-top: 70px;
+
+
+    background-color:#f2f0f0 ;
+}
+.container2{
+    display: flex;
+    position: relative;
+    width: 1519px;
+    height: 800px;
+    margin-top: -82px;
+  
+    background-color:#f2f0f0 ;
+}
+.container3{
+    display: flex;
+    position: relative;
+    width: 1519px;
+    height: 800px;
+    margin-top: -150px;
+    background-color:#f2f0f0 ;
+
+}
+.container4{
+    display: flex;
+    position: relative;
+    width: 1519px;
+    height: 800px;
+    margin-top: -82px;
+    background-color:#f2f0f0 ;
+
+}
+.entres{  
+    font-size: 60px;
+    font-family: David Libre;
+    color: #101A24;
+    margin-top: 50px;
+}
+.entres1{  
+    position:absolute;
+    font-size: 60px;
+    font-family: David Libre;
+    color: #101A24;
+    margin-top: 50px;
+    margin-left: 580px;
+}
+.entres2{
+    position:absolute;
+    font-size: 60px;
+    font-family: David Libre;
+    color: #101A24;
+    margin-top: 50px;
+    margin-left: 650px;
+
+}
+.entres3{
+    position:absolute;
+    font-size: 60px;
+    font-family: David Libre;
+    color: #101A24;
+    margin-top: 50px;
+    margin-left: 680px;
+
+}
+.hchicha1{
+    height: 212.7px;
+    width: 224.4px;
+    margin-left: 400px;
+    margin-top: 20px;
+    
+}
+.hchicha11{
+    position:absolute;
+    height: 212.7px;
+    width: 224.4px;
+    margin-left: 380px;
+    margin-top: 20px;   
+    z-index: 50;
+}
+.hchicha12{
+    position:absolute;
+    height: 212.7px;
+    width: 224.4px;
+    margin-left: 450px;
+    margin-top: 20px;   
+
+}
+.hchicha13{
+    position:absolute;
+    height: 212.7px;
+    width: 224.4px;
+    margin-left: 470px;
+    margin-top: 20px;   
+
+}
+.hchicha2{
+    height: 212.7px;
+    width: 224.4px;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.hchicha21{
+
+    height: 212.7px;
+    width: 224.4px;
+    margin-top: 20px;
+   margin-left: 880px;
+}
+.hchicha22{
+    position: absolute;
+    height: 212.7px;
+    width: 224.4px;
+    margin-top: 20px;
+   margin-left: 820px;
+
+}
+.hchicha23{
+    position: absolute;
+    height: 212.7px;
+    width: 224.4px;
+    margin-top: 20px;
+   margin-left: 820px;
+
+}
+.itemcontainer1{
+    height: 400px;
+    width: 1290px;
+    margin-top: 220px;
+    margin-left: -1000px;
+    top: 300px;
+    left: 200px; 
+}
+.sliderContainer{ 
+    margin-top: 160px;
+    margin-left: -1070px;
+    padding: 20px;
+    box-sizing: border-box; /* Ensure padding is included in the width */
+    overflow: hidden; /* Hide any overflow caused by slides */
+    width: 1420px;
+}
+.sliderContainer1{
+
+    margin-top: 230px;
+    margin-left: 48px;
+    padding: 20px;
+    box-sizing: border-box; /* Ensure padding is included in the width */
+    overflow: hidden; /* Hide any overflow caused by slides */
+    width: 1420px;
+}
+
+.slick-prev, .slick-next {
+    z-index: 1;
+    width: 150px; /* Increase the width of the arrows */
+    height: 150px; /* Increase the height of the arrows */
+    color: white; /* Set the arrow color to white */
+    background-color: rgba(0, 0, 0, 0.5); /* Optional: Add a background color for better visibility */
+    border-radius: 50%; /* Make the arrow buttons circular */
+    display: flex; /* Center the arrow icon inside the button */
+    align-items: center;
+    justify-content: center;
+    opacity: 0.8; /* Make the arrows slightly transparent */
+    transition: opacity 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.slick-prev:hover, .slick-next:hover {
+    opacity: 1; /* Increase opacity on hover for better visibility */
+}
+
+.slick-prev:before, .slick-next:before {
+    font-size: 24px; /* Increase the size of the arrow icons */
+    color: white; /* Ensure the arrow icons are white */
+}
+.basla{
+    display: flex;
+    position: absolute;
+    margin-left: 120px;
+    margin-top:170px;
+}
+.rasthoum{
+    display: flex;
+    position: absolute;
+    margin-left: 1290px;
+    margin-top: 40px;
+}
+.zina1{
+    display: flex;
+    position: absolute;
+    margin-left: 1240px;
+    margin-top: 460px;
+
+}
+.zina2{
+    display: flex;
+    position: absolute;
+    margin-left: 1240px;
+}
+.zina3{
+    display: flex;
+    position: absolute;
+    margin-left: 20px;
+    margin-top: 150px;
+}
+.desc1{
+    display: flex;
+    position: absolute;
+    font-family: Inter;
+    font-size: 19px;
+    color:#5C6574;
+    margin-top: 150px;
+    margin-left: 680px;
+}
+.desc2{
+    display: flex;
+    position: absolute;
+    font-family: Inter;
+    font-size: 19px;
+    color:#5C6574;
+    margin-top: 150px;
+    margin-left: 660px;
+}
+.desc3{
+    display: flex;
+    position: absolute;
+    font-family: Inter;
+    font-size: 19px;
+    color:#5C6574;
+    margin-top: 150px;
+    margin-left: 690px;
+
+
+}
+
+

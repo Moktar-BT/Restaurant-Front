@@ -1,0 +1,107 @@
+/* @import url('https://fonts.googleapis.com/css2?family=David+Libre&display=swap'); */
+
+.container{
+    padding-top: 100px;
+    width: 1519px;
+    background-color:#f2f0f0cf ; 
+    height:75%;
+    
+}
+.table{
+    margin-left: 150px;
+    margin-top: 50px;
+    max-width: 920px;
+ 
+    z-index: 3;
+}
+.ximg{
+    height: 30px;
+}
+.btnX{
+    background-color: transparent;
+}
+.ma9la {
+    position: absolute;
+    margin-top: -120px; 
+}
+.hchicha{
+    position: absolute;
+    margin-left: 1120px;
+    margin-top: 220px;
+    z-index: 2;
+}
+.total{
+    position:absolute;
+    background-color: white;
+    margin-left: 1120px;
+    margin-top: 150px;
+    width: 350px;
+    height: 380px;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+
+}
+.titre{
+    position: absolute;
+    margin-left: 76px;
+    font-weight:400;
+    margin-top: 20px;
+    font-size: 30px;
+    /* font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; */
+    font-family: David Libre;
+    color: #101A24;
+}
+/* PanierPage.module.css */
+.productName {
+    font-family: David Libre;
+    font-weight:100;
+  }
+  .hchicha2{
+    position: absolute;
+    margin-top: 450px;
+    margin-left: 1100px;
+  }
+  
+.p{
+    position:absolute;
+    margin-left: 40px;
+    font-family: Inter;
+    font-size: 19px;
+    color: #5C6574;
+    margin-right: 30px;
+    margin-top: 80px;
+}
+.subtotal{
+    position: absolute;
+    font-size: 25px;
+    color: #EA6D27;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight:bolder;
+    margin-top: 160px;
+    margin-left: 75px;
+}
+.btnptc{
+    position: absolute;
+    font-size: 20px;
+    background-color:#101A24 ;
+    color: white;
+    margin-left: 48px;
+    margin-top: 220px;
+    width: 250px;
+    z-index: 3;
+    font-family: David Libre;
+    height: 40px;
+
+}
+.btncs{
+    position: absolute;
+    font-size: 20px;
+    background-color:#101A24 ;
+    color: white;
+    margin-left: 48px;
+    margin-top: 280px;
+    width: 250px;
+    z-index: 3;
+    font-family: David Libre;
+    height: 40px;
+}
+  
